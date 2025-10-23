@@ -4,7 +4,7 @@
 This project aims to build an end-to-end ML pipeline that predicts whether a credit card client will default on their next month’s payment, using the [UCI Default of Credit Card Clients Dataset](https://archive.ics.uci.edu/ml/datasets/default+of+credit+card+clients).
 
 The project, when complete, will demonstrate:
-- [ ] Data validation and preprocessing
+- [ ] Data validation and preprocessing (via Pandera)
 - [ ] Model training and hyperparameter optimization (via XGBoost + Optuna)
 - [ ] Experiment tracking and versioning (via MLflow)
 - [ ] API-based model serving (via FastAPI + Docker)
