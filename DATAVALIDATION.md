@@ -1,18 +1,15 @@
-## How to run (with conda)
+## Validate Data (with conda)
 1) Place the raw CSV at `data/raw/UCI_Credit_Card.csv`
-2) Create and install the conda environment:
+2) Create+activate conda environment called **credit-default** with Python 3.11 via:
 ```bash
-make install
+conda create -y -n credit-default python=3.11
 ```
-This creates a new environment called **credit-default** with Python 3.11 and all necessary packages.
-
-3) Run validation:
+and:
 ```bash
-make validate
+conda activate credit-default
 ```
-A report will be written to `reports/validation_report.json`
-
-4) To remove the conda environment after report generation:
+3) Run:
 ```bash
-make clean
+pip install -U pip && pip install -r requirements.txt
 ```
+4) 

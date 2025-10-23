@@ -1,6 +1,10 @@
 # Created by https://www.toptal.com/developers/gitignore/api/python,visualstudiocode
 # Edit at https://www.toptal.com/developers/gitignore?templates=python,visualstudiocode
 
+### Directories ###
+data/
+reports/
+
 ### Python ###
 # Byte-compiled / optimized / DLL files
 __pycache__/
@@ -174,12 +178,14 @@ poetry.toml
 pyrightconfig.json
 
 ### VisualStudioCode ###
+.vscode
 .vscode/*
 !.vscode/settings.json
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
 !.vscode/*.code-snippets
+src/.vscode
 
 # Local History for Visual Studio Code
 .history/
